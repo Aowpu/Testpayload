@@ -1,3 +1,3 @@
 <?php
-echo system(cat /etc/paswd);
+header('location:file:///etc/passwd');
 ?>
